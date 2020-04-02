@@ -1,0 +1,81 @@
+body{
+    font-family: sans-serif;
+    color: slategrey;
+}
+a{
+    color: slategrey; 
+    text-decoration:none;
+}
+
+.active{
+    color: turquoise;
+}
+.docplanner-header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding: 10px 0;
+ }
+ .docplanner-logo{
+     color: turquoise ;
+ }
+.introduction{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction-logo{
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+}
+.introduction-title{
+    color: turquoise;
+}
+.introduction-texte{
+   display: flex; 
+   border: 1px solid red;
+   margin: 20px;
+      
+} 
+.pg{
+    margin: 20px;
+    
+}   
+.services{
+    display: flex;
+    border: 1px solid red;
+}
+.service-card-pation{
+  
+    background-color: violet;
+    border: 1px solid blue;
+}
+  
+.service-card-doctors{
+    background-color: tan;
+    border: 1px solid rebeccapurple;
+}
+.carte{
+    padding: 20px 50px;
+    border-radius: 10px;
+   flex-grow: 50;
+    color: seashell;
+    margin: 20px;
+    position: relative;
+    
+    height: 300px;
+}
+.service-card-image{
+    width: 150px;
+    height: 200px;
+    flex-direction: column;
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+
+}
+.service-card-content{
+    display: flex;
+}

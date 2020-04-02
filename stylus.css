@@ -1,0 +1,321 @@
+body{
+    margin: 0px;
+}
+.entete{
+    
+    
+    justify-content: space-between;
+    
+    background-color: #ce9ba4;
+    width: 100%;
+    height: 100%;
+  }
+
+/* Dropdown Button *********************/
+.dropbtn {
+    background-color:transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropdown {
+    position:relative;
+    display: inline-block;
+  }
+  .ROUL{
+    list-style-type: none;
+
+  }
+  .dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 2px;
+    height: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {
+      display:block;
+    }
+  .dropdown:hover .dropbtn {background-color: transparent;}
+ 
+ /********************** */
+ .imgez{
+     width: 300px;
+     height:200px;
+ }
+ 
+ 
+ 
+  .svg1{
+      color: cornflowerblue;
+  }
+  .svg2{
+      color: indianred;
+  }
+  .svg3{
+      color:yellow ;
+  }
+  .color-blue{
+      color: steelblue;
+      font-size: 120%;
+      line-height: 32px;
+  }
+  .lm{
+      color: black;
+      text-decoration: underline;
+  }
+  body{
+    font-family: sans-serif;
+   
+    
+}
+.color{
+    color: black;
+}
+.vs{
+    color: white;
+}
+  .navig{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .navig :hover{
+      color: chartreuse;
+  }
+  a{color: white;
+    text-decoration:none;
+    
+    padding: 10px;
+  }
+  .bot{
+    padding: 30px 50px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 160%; 
+    border-radius: 10px;
+   
+    
+  }
+  .soft{
+      padding: 50px;
+      display: flex;
+              
+     }
+     .triples{
+         display: flex;
+         padding:0px;
+         height: 400px;
+         flex-grow: 50px;
+         position: relative;
+     }
+     .part1{
+         color: white;
+     }
+     .blog1{
+         background-color:#fed24a;
+         padding: 20px 60px;
+               
+     }
+     .login{
+        padding: 10px 30px;
+        font-weight: bold;
+        background-color: white;
+        border-radius: 10px;
+     }
+     .login:hover{
+         color: black;
+     }
+     .gs{
+        padding: 10px 30px;
+        font-weight: bold;
+        color: white;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+
+     }
+     .gs:hover{
+         color: cornsilk;
+     }
+     
+     .bot3{
+        padding: 24px;
+        
+        background-color: transparent;
+        border-radius: 10px;
+        position: absolute;
+        bottom: 30px;
+        font-weight: bold;
+        
+                  
+     }
+     .bot3:hover{
+         background: blanchedalmond;
+         box-shadow: cornsilk;
+     }
+     .blog2{
+         background-color: #51c29f;
+         padding: 20px 60px;
+     }
+     .blog3{
+         background-color: #3ea9f5;
+         padding: 20px 60px;
+     }
+     .monky{
+        justify-content: space-between;
+        display: flex;
+        padding: 100px;
+         
+     }
+     .stia{
+         color: slategrey;
+         width: 200px;
+         height: 150px;
+       
+        margin-right: 50px;
+     }
+     .ecou{
+        display:flex;         
+        justify-content: space-between;
+       padding: 50px;
+       position: relative;
+     }
+     .write{
+         margin:0%;
+     }
+     .enfin{
+         color: blue;
+     }
+     .enfin{
+         
+         position: absolute;
+         bottom: -40px;
+         text-decoration: underline;
+         
+          }
+     .enfin:hover{
+        color: blue;
+        
+    }
+    .blanket{
+        margin: 10%;
+      
+
+    }
+    .Weve{
+        background-color: darkgray;
+        padding: 20px 0px;
+        font-weight: normal;
+       /* font-size: 120%; */
+       text-align: center;
+
+
+    }
+    .updated{
+        margin: 0px;
+    }
+    .WeveT{
+        color: rgb(195, 184, 200);
+        text-decoration: underline;
+        
+    }
+    .black{
+             display: flex ;
+              
+                background-color: rgb(78, 71, 71);
+        color: cornsilk;
+        padding:5%;
+        
+    }
+    .bar{
+        margin: 0px 80px;
+    }
+    
+     .column1{
+        list-style-type: none;
+       
+        
+     }
+     .wistia{
+        padding: 2px;
+        margin: -65px;
+        width: 200px;
+     }
+     .wistiaa{
+         color: white;
+         font-weight: bold;
+         padding: 20px;
+     }
+     .us{
+         color: white;
+         font-weight: lighter;
+         font-size: 80%;
+     }
+     .green{
+        font-size: 80%;
+        color: green;
+
+     }
+     .green:hover{
+         text-decoration:underline ;
+     }
+     .column2{
+        list-style-type: none;
+            font-weight: bold;
+            font-size: 80%;
+     }
+     .wscs{
+         color: grey;
+     }
+     
+     .column3{
+        
+        list-style-type: none;
+        font-weight: bold;
+        font-size: 80%;
+     }
+     .red{color: red;}
+     .blue{color: rgb(59, 8, 126);}
+     .column4{
+        
+        list-style-type: none;
+        font-weight: bold;
+        font-size: 80%;
+     }
+     .column5{
+        
+        list-style-type: none;
+        font-weight: bold;
+        font-size: 80%;
+     }
+     .column6{
+        
+        list-style-type: none;
+        font-weight: bold;
+        font-size: 80%;
+     }
+     .rights{
+         text-align: center;
+         background-color: rgb(78, 71, 71);
+         color: slategrey;
+         padding: 50px;
+             }
+             .terms{
+                 color: slategrey;
+                 text-decoration:underline ;
+             }
+             .terms:hover{
+color: seagreen;
+             }
+     
